@@ -18,7 +18,7 @@ def part_one():
     return result
 
 def part_two():
-    r, c = 1,1
+    r, c = 2,0
     result = ''
     keypad = [[0,0,1,0,0], [0,2,3,4,0], [5,6,7,8,9], [0,'A', 'B', 'C', 0], [0,0,'D',0,0]]
     for instruction in instructions:
