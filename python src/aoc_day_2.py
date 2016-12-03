@@ -1,5 +1,5 @@
 from __future__ import print_function
-start_file = open('/root/Desktop/AOC_2016/res/aoc_day_2_input.txt')
+start_file = open('/Users/jeremiahsimmons/Desktop/AOC_2016/res/aoc_day_2_input.txt')
 instructions = [line.strip() for line in start_file.read().splitlines()]
 
 directions = {'D': (1,0), 'U': (-1, 0), 'L':(0, -1), 'R':(0, 1)}
@@ -13,7 +13,7 @@ def part_one():
             temp_r = r + directions[letter][0]
             temp_c = c + directions[letter][1]
             if temp_r in range(3) and temp_c in range(3):
-                 r, c = temp_r, temp_c 
+                 r, c = temp_r, temp_c
         result += str(keypad[r][c])
     return result
 
@@ -26,13 +26,11 @@ def part_two():
             temp_r = r + directions[letter][0]
             temp_c = c + directions[letter][1]
             if temp_r in range(5) and temp_c in range(5) and keypad[temp_r][temp_c] != 0:
-                 r, c = temp_r, temp_c 
+                 r, c = temp_r, temp_c
         result += str(keypad[r][c])
     return result
-    
 
-    
+
+
 print('Part one --> ', part_one())
 print('Part two --> ', part_two())
-            
-    
