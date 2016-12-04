@@ -1,24 +1,18 @@
 from __future__ import print_function
-import itertools
 import string
+import re
+from collections import Counter
 
 start_file = open('../res/aoc_day_4_input.txt')
 instructions = start_file.read().strip().splitlines()
-
+pattern = r'([a-z-]+)-(\d+)\[([a-z]+)\]'
 def part_one():
     total = 0
     for line in instructions:
-        data = line[:line.rfind('-')].replace('-', '')
-        sector = int(line[line.rfind('-') + 1:line.index('[')])
-        check = line[line.index('[') + 1:-1]
-        counts = []
-        for letter in string.lowercase:
-            if data.count(letter) > 0:
-                counts += [(letter, data.count(letter))]
-        counts = sorted(counts, key = lambda x: (-x[1], x[0]))
-        result = ''
-        for i in range(5):
-            result += counts[i][0]
+        data, sector, check = re.findall(pattern, line)[0]
+        data = data.replace('-','')
+        counts = sorted(Counter(data).most_common(), key = lambda x: (-x[1], x[0]))[:5]
+        result = ''.join([l for (l,c) in counts])
         if result == check:
             total += int(sector)
     return total
@@ -26,13 +20,12 @@ def part_one():
 
 def part_two():
     for line in instructions:
-        data = line[:line.rfind('-')].replace('-', ' ')
-        sector = int(line[line.rfind('-') + 1:line.index('[')])
+        data, sector, check = re.findall(pattern, line)[0]
+        data = data.replace('-', ' ')
         name = ''
         for letter in data:
             if letter != ' ':
-                index = (string.lowercase.index(letter) + sector) % 26
-                name += string.lowercase[index]
+                name += string.lowercase[(string.lowercase.index(letter) + int(sector)) % 26]
             else:
                 name += ' '
         if 'north' in name and 'pole' in name:
