@@ -28,11 +28,10 @@ def part_two():
     for line in instructions:
         data = line[:line.rfind('-')].replace('-', ' ')
         sector = int(line[line.rfind('-') + 1:line.index('[')])
-        shift = sector % 26
         name = ''
         for letter in data:
             if letter != ' ':
-                index = (string.lowercase.index(letter) + shift) % 26
+                index = (string.lowercase.index(letter) + sector) % 26
                 name += string.lowercase[index]
             else:
                 name += ' '
