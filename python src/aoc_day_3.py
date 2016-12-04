@@ -1,8 +1,7 @@
 from __future__ import print_function
-import time
 
 start_file = open('../res/aoc_day_3_input.txt')
-instructions = [line for line in start_file.read().strip().splitlines()]
+instructions = start_file.read().strip().splitlines()
 
 
 def part_one():

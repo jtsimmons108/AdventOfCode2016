@@ -1,6 +1,6 @@
 from __future__ import print_function
 start_file = open('/Users/jeremiahsimmons/Desktop/AOC_2016/res/aoc_day_2_input.txt')
-instructions = [line.strip() for line in start_file.read().splitlines()]
+instructions = start_file.read().strip().splitlines()
 
 directions = {'D': (1,0), 'U': (-1, 0), 'L':(0, -1), 'R':(0, 1)}
 
