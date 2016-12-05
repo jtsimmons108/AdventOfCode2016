@@ -30,6 +30,7 @@ def part_two():
                 name += string.lowercase[(string.lowercase.index(letter) + int(sector)) % 26]
             else:
                 name += ' '
+        print
         if 'north' in name and 'pole' in name:
             return sector
 
