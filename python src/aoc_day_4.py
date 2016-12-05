@@ -6,6 +6,8 @@ from collections import Counter
 start_file = open('../res/aoc_day_4_input.txt')
 instructions = start_file.read().strip().splitlines()
 pattern = r'([a-z-]+)-(\d+)\[([a-z]+)\]'
+
+
 def part_one():
     total = 0
     for line in instructions:
@@ -33,3 +35,4 @@ def part_two():
 
 print('Part one:', part_one())
 print('Part two:', part_two())
+
