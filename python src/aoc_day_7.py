@@ -19,7 +19,7 @@ def make_bab(aba):
 
 def contains_abba(string):
     for i in range(len(string)-3):
-        if string[i] == string[i + 3] and string[i+1] == string[i+2] and string[i+0] != string[i+1]:
+        if string[i] == string[i + 3] and string[i+1] == string[i+2] and string[i] != string[i+1]:
             return True
     return False
 
@@ -30,7 +30,7 @@ SSL = 0
 for line in instructions:
     hypernet = re.findall(r'\[\w+\]', line)
     supernet = re.split(r'\[\w+\]', line)
-
+    print(hypernet, supernet, sep = "\n")
     #Part 1
     if any(map(contains_abba, supernet)) and not any(map(contains_abba, hypernet)):
         TLS += 1
