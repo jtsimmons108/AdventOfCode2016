@@ -1,5 +1,5 @@
 from __future__ import print_function
-start_file = open('/Users/jeremiahsimmons/Desktop/AOC_2016/res/aoc_day_1_input.txt')
+start_file = open('./aoc_day_1_input.txt')
 instructions = start_file.read().split(", ")
 movements = {0:(0,1), 90: (1, 0), 180: (0, -1), 270: (-1, 0)}
 

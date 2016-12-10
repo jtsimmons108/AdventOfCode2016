@@ -1,7 +1,7 @@
 from __future__ import print_function
 import re
 
-start_file = open('../res/aoc_day_10_input.txt')
+start_file = open('./aoc_day_10_input.txt')
 instructions = start_file.read().strip().splitlines()
 
 bins = {'bot':{}, 'output':{}}

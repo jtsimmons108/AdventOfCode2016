@@ -3,7 +3,7 @@ import string
 import re
 from collections import Counter
 
-start_file = open('../res/aoc_day_4_input.txt')
+start_file = open('./aoc_day_4_input.txt')
 instructions = start_file.read().strip().splitlines()
 pattern = r'([a-z-]+)-(\d+)\[([a-z]+)\]'
 

@@ -2,7 +2,7 @@ from __future__ import print_function
 import time
 import re
 
-start_file = open('../res/aoc_day_9_input.txt')
+start_file = open('./aoc_day_9_input.txt')
 instruction = start_file.read().strip()
 
 

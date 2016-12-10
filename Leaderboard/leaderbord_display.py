@@ -1,7 +1,7 @@
 from __future__ import print_function
 import json, dateutil.parser
 
-data = json.load(open('../res/leaderboard.json'))
+data = json.load(open('./leaderboard.json'))
 print('Leaderboard for:', data['event'],'\n')
 members = data['members']
 for member, stars in sorted([(name, int(members[name]['stars'])) for name in members.keys()], key = lambda x: -x[1]):

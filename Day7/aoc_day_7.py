@@ -1,7 +1,7 @@
 from __future__ import print_function
 import re
 
-start_file = open('../res/aoc_day_7_input.txt')
+start_file = open('./aoc_day_7_input.txt')
 instructions = start_file.read().strip().splitlines()
 
 
@@ -30,7 +30,6 @@ SSL = 0
 for line in instructions:
     hypernet = re.findall(r'\[\w+\]', line)
     supernet = re.split(r'\[\w+\]', line)
-    print(hypernet, supernet, sep = "\n")
     #Part 1
     if any(map(contains_abba, supernet)) and not any(map(contains_abba, hypernet)):
         TLS += 1

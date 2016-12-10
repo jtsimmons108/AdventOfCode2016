@@ -1,7 +1,7 @@
 from __future__ import print_function
 import numpy as np
 
-start_file = open('../res/aoc_day_8_input.txt')
+start_file = open('./aoc_day_8_input.txt')
 instructions = start_file.read().strip().splitlines()
 
 #screen = [[0]*50 for _ in range(6)]
