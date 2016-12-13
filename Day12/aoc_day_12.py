@@ -17,6 +17,7 @@ jump = re.compile(r'jnz (.) (-?\d+)')
 i = 0
 while i < len(instructions):
     line = instructions[i]
+    print(line, registers)
     if jump.match(line):
         reg, amt = jump.findall(line)[0]
         val = int(reg) if reg.isdigit() else registers[reg]
