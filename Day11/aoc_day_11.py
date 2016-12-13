@@ -38,7 +38,6 @@ class Game(object):
     '''
         Count the number of individual generators, individual microchips, and pairs on the floor
     '''
-
     def get_floor_state(self, floor_number):
         elements = sorted(self.floor_plan[floor_number])
         i = 0
@@ -56,9 +55,8 @@ class Game(object):
         return gens, chips, pairs
 
     '''
-        Make sure the pair to move is either the same type, both generators, or both microchips
+        Make sure the pair to move are either the same type, both generators, or both microchips
     '''
-
     def is_valid_pair(self, pair):
         el1, el2 = pair
         if el1[-1] == el2[-1] or el1[:-1] == el2[:-1]:
@@ -69,7 +67,6 @@ class Game(object):
         If there are no generators or no microchips, it's a valid floor.
         Otherwise, make sure the chip has its pair on the floor
     '''
-
     def is_valid_floor(self, floor):
         microchips = [el for el in floor if el[-1] == 'm']
         generators = [el for el in floor if el[-1] == 'g']
@@ -85,7 +82,6 @@ class Game(object):
         Find all valid pairs that can be moved up, sorted before return so it tries to move generators up before
         pairs of only microchips
     '''
-
     def get_pairs_to_move_up(self):
         if self.elevator_floor == 3:
             return []
@@ -99,7 +95,6 @@ class Game(object):
         Don't look for elements to move down if elevator is on the bottom or if there is nothing in all the rows
         below current position
     '''
-
     def get_pairs_to_move_down(self):
         if self.elevator_floor == 0 or sum(len(self.floor_plan[i]) for i in range(self.elevator_floor)) == 0:
             return []
@@ -112,7 +107,6 @@ class Game(object):
     '''
         Make sure the new floor and old floor will be valid with the move
     '''
-
     def can_move_pair(self, pair, direction):
         return self.is_valid_floor([el for el in self.floor_plan[self.elevator_floor] if el not in pair]) \
                and self.is_valid_floor(self.floor_plan[self.elevator_floor + direction] + list(pair))
