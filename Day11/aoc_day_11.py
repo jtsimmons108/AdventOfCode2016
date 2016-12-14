@@ -14,7 +14,7 @@ floors1 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com'], ['pom', 'pr
 # Floor starting point for 2nd part
 # floors2 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com', 'elm', 'elg', 'dim', 'dig'], ['pom', 'prm'],[],[]]
 
-
+moves = []
 class Game(object):
     def __init__(self, floor_plan, moves, elevator_floor, seen_floor_states):
         self.floor_plan = floor_plan
@@ -157,7 +157,7 @@ class Game(object):
         new_game = Game([floor[::] for floor in self.floor_plan], self.moves, self.elevator_floor, self.seen_floor_states)
         new_game.move(items_to_move, self.elevator_floor + direction)
         print(new_game)
-        if not any(new_game.has_same_game_state(game) for game in self.seen_floor_states):
+        if not any(new_game.has_same_game_state(game) for game in new_game.seen_floor_states):
             new_game.process_turn()
 
     '''
@@ -167,6 +167,7 @@ class Game(object):
         if self.is_done():
             print(self.moves)
             exit()
+
         else:
             pairs_up = self.get_pairs_to_move_up()
             els_up = self.get_elements_to_move_up()
