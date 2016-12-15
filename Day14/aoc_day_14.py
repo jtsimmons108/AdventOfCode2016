@@ -7,7 +7,7 @@ hashes = {}
 found = []
 has_three = re.compile(r'(.)\1\1')
 
-part1 = False
+part1 = True
 
 def stretched_key(string):
     for i in range(2017):
