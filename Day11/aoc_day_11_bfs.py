@@ -5,16 +5,16 @@ from collections import deque
 start_file = open('./aoc_day_11_input.txt')
 instructions = start_file.read().strip().splitlines()
 
- #Example
-floors1 = [['hym', 'lim'], ['hyg'], ['lig'], []]
+#Example
+#floors1 = [['hym', 'lim'], ['hyg'], ['lig'], []]
 
 '''The first floor contains a promethium generator and a promethium-compatible microchip.
 The second floor contains a cobalt generator, a curium generator, a ruthenium generator, and a plutonium generator.
 The third floor contains a cobalt-compatible microchip, a curium-compatible microchip, a ruthenium-compatible microchip, and a plutonium-compatible microchip.
 The fourth floor contains nothing relevant.'''
-floors1 = [['prg', 'prm'], ['cog', 'cug', 'rug', 'plg'], ['com', 'cum', 'rum', 'plm'],[]]
+#floors1 = [['prg', 'prm'], ['cog', 'cug', 'rug', 'plg'], ['com', 'cum', 'rum', 'plm'],[]]
 
-#floors1 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com'], ['pom', 'prm'], [], []]
+floors1 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com'], ['pom', 'prm'], [], []]
 
 # Floor starting point for 2nd part
 #floors2 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com', 'elm', 'elg', 'dim', 'dig'], ['pom', 'prm'],[],[]]
@@ -37,7 +37,7 @@ class Game(object):
         return True
 
     def get_game_state(self):
-        return [self.get_floor_state(i) for i in range(len(self.floor_plan))] + [(self.moves, self.elevator_floor)]
+        return [self.get_floor_state(i) for i in range(len(self.floor_plan))] + [(self.elevator_floor,)]
 
     '''
         Count the number of individual generators, individual microchips, and pairs on the floor
