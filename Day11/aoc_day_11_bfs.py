@@ -2,8 +2,6 @@ from __future__ import print_function
 import itertools
 from collections import deque
 
-start_file = open('./aoc_day_11_input.txt')
-instructions = start_file.read().strip().splitlines()
 
 #Example
 #floors1 = [['hym', 'lim'], ['hyg'], ['lig'], []]
