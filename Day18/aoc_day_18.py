@@ -1,7 +1,4 @@
 from __future__ import print_function
-import re
-from collections import deque, Counter
-import itertools
 
 
 start_file = open('./aoc_day_18_input.txt')
