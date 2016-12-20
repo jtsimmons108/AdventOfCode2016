@@ -4,7 +4,7 @@ import json, dateutil.parser
 data = json.load(open('./leaderboard.json'))
 print('Leaderboard for:', data['event'],'\n')
 members = data['members']
-for member, stars, local_score in sorted([(name, int(members[name]['stars']), int(members[name]['local_score'])) for name in members.keys()], key = lambda x: (-x[1], -x[2])):
+for member, stars, local_score in sorted([(name, int(members[name]['stars']), int(members[name]['local_score'])) for name in members.keys()], key = lambda x: (-x[2])):
     user = members[member]
     print(user['name'], ':', stars, '*', '\t\tscore:', local_score)
     daily_info = members[member]['completion_day_level']
