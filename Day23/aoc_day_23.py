@@ -26,6 +26,15 @@ while i < len(instructions):
         registers['c'] = 0
         registers['d'] = 0
         i = 10
+    elif i == 13:
+        registers['c'] += registers['d']
+        registers['d'] = 0
+        i = 16
+    elif i == 21:
+        registers['a'] += registers['d'] * registers['c']
+        registers['d'] = 0
+        registers['c'] = 0
+        i = 26
     elif jump.match(line):
         reg, amt = jump.findall(line)[0]
         val = int(reg) if reg.isdigit() else registers[reg]

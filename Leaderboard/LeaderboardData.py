@@ -11,26 +11,33 @@ leaders = [global_entry.findall(person.replace(' (AoC++)', ''))[0] for person in
 
 entries = {}
 all = 0
-for i in range(1, 23):
+for i in range(1, 24):
     inpt = [line.strip().replace(' (AoC++)', '') for line in open('./Day' + str(i) + 'Leaderboard.txt').read().strip().splitlines()]
+    part1_users = []
+    part2_users = []
+    part1 = True
     for person in inpt:
             if lead_entry.match(person):
                 all += 1
                 place, user = lead_entry.findall(person.replace(' (AoC++)', ''))[0]
                 entries.setdefault(user, [])
                 entries[user].append(int(place))
+    #             if part1:
+    #                 part1_users.append(user)
+    #             else:
+    #                 part2_users.append(user)
+    #         else:
+    #             part1 = False
+    # star_one_only = [user for user in part1_users if user not in part2_users]
+    # star_two_only = [user for user in part2_users if user not in part1_users]
+    # star_both = [user for user in part1_users if user in part2_users]
+    # day_string = str(i) if i >= 10 else ' ' + str(i)
+    # print('Day', day_string, 'Star 1 only:', len(star_one_only), '\tBoth Stars:', len(star_both), '\tNumber of people on leaderboard:', len(entries))
 
 print(len(entries))
 print(all)
-people = sorted(entries.items(), key = lambda person: -len(filter(lambda num: num < 10, person[1])))
-
+people = sorted(entries.items(), key = lambda person: -sum([101 - x for x in person[1]]) )
 for i in range(len(people)):
-    score = sum([101 - x for x in people[i][1]])
-    #print(' '* (3 - len(str(i + 1))), i + 1, ': ', people[i][0], '\t', len(people[i][1]), '  score: ', score, '   average:  ', average(people[i][1]), sep = '')
-    print(person[i][0], len(filter(lambda num: num < 10, person[i][1])))
-print(filter(lambda x: x[0] in leaders, people ))
-print(filter(lambda x: x[0] not in leaders, people ))
-first_places = sorted(filter(lambda x: 1 in x[1], people), key = lambda x: -x[1].count(1))
-print (len(first_places))
-for person in first_places:
-    print(person[0], person[1].count(1))
+    print(i + 1, people[i][0], len(people[i][1]), sum([101 - x for x in people[i][1]]))
+
+
