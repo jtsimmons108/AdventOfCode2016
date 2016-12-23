@@ -1,0 +1,202 @@
+  1) Dec 20  00:04:58  nneonneo
+  2) Dec 20  00:05:29  Kevin Wang
+  3) Dec 20  00:06:02  Andrew Skalski
+  4) Dec 20  00:06:16  HookyQR
+  5) Dec 20  00:06:46  Avo Muromägi
+  6) Dec 20  00:07:09  batneil
+  7) Dec 20  00:07:19  Daniel Tomkins
+  8) Dec 20  00:07:38  sguest
+  9) Dec 20  00:07:45  (anonymous user #31397)
+ 10) Dec 20  00:07:46  Frank Chu (AoC++)
+ 11) Dec 20  00:07:58  Toni Fadjukoff
+ 12) Dec 20  00:08:39  Pedro Osório (AoC++)
+ 13) Dec 20  00:08:59  Lawrence Xing
+ 14) Dec 20  00:09:07  Austin
+ 15) Dec 20  00:09:16  likcoras
+ 16) Dec 20  00:09:38  petertseng (AoC++)
+ 17) Dec 20  00:09:44  @vyrin (AoC++)
+ 18) Dec 20  00:09:46  Jay Foad (AoC++)
+ 19) Dec 20  00:09:48  alokmenghrajani
+ 20) Dec 20  00:09:50  ahorner (AoC++)
+ 21) Dec 20  00:09:55  kristjan (AoC++)
+ 22) Dec 20  00:10:00  Daniel Gollahon (AoC++)
+ 23) Dec 20  00:10:03  Antti Haapala (AoC++)
+ 24) Dec 20  00:10:07  jamie
+ 25) Dec 20  00:10:09  Keegan Carruthers-Smith (AoC++)
+ 26) Dec 20  00:10:33  jneubrand (AoC++)
+ 27) Dec 20  00:10:38  Kevin Yap (AoC++)
+ 28) Dec 20  00:10:51  Igor Naverniouk (AoC++)
+ 29) Dec 20  00:11:14  BafDyce (AoC++)
+ 30) Dec 20  00:11:15  SimonPrins
+ 31) Dec 20  00:11:47  Dylan Smith
+ 32) Dec 20  00:11:49  mogest (AoC++)
+ 33) Dec 20  00:12:00  orez-
+ 34) Dec 20  00:12:07  (anonymous user #7253)
+ 35) Dec 20  00:12:18  gzgreg
+ 36) Dec 20  00:12:25  Shanti Chellaram
+ 37) Dec 20  00:12:27  (anonymous user #119362)
+ 38) Dec 20  00:12:27  Lance Nathan
+ 39) Dec 20  00:12:30  Brandon Zhang
+ 40) Dec 20  00:12:30  willkill07 (AoC++)
+ 41) Dec 20  00:12:31  Gil4
+ 42) Dec 20  00:12:59  AdamHerrmann
+ 43) Dec 20  00:13:25  (anonymous user #120259)
+ 44) Dec 20  00:13:39  Ben Blum
+ 45) Dec 20  00:13:57  Eric Aderhold
+ 46) Dec 20  00:14:20  matthewd
+ 47) Dec 20  00:14:26  Timo Vink (AoC++)
+ 48) Dec 20  00:14:33  Conrad Meyer
+ 49) Dec 20  00:14:47  bovard
+ 50) Dec 20  00:15:09  James Rupke
+ 51) Dec 20  00:15:10  Joshua Berne
+ 52) Dec 20  00:15:16  Ago Luberg
+ 53) Dec 20  00:15:17  Paul Wild
+ 54) Dec 20  00:15:22  wmorganjr
+ 55) Dec 20  00:15:31  Jonathan Stein
+ 56) Dec 20  00:15:32  Kevin Brown
+ 57) Dec 20  00:15:33  glguy (AoC++)
+ 58) Dec 20  00:15:41  jacekrobak
+ 59) Dec 20  00:15:53  Daniel Mendelsohn
+ 60) Dec 20  00:15:57  rahulsom
+ 61) Dec 20  00:16:02  Kevin Vick
+ 62) Dec 20  00:16:10  Alpha Chen
+ 63) Dec 20  00:16:16  wtmcc
+ 64) Dec 20  00:16:33  Giedrius
+ 65) Dec 20  00:16:36  Amaro Vita
+ 66) Dec 20  00:16:45  perimosocordiae
+ 67) Dec 20  00:16:55  kacredolo
+ 68) Dec 20  00:16:56  aepsilon
+ 69) Dec 20  00:17:00  Kenny K (AoC++)
+ 70) Dec 20  00:17:02  Jeremy Rans (AoC++)
+ 71) Dec 20  00:17:06  kalven
+ 72) Dec 20  00:17:08  Jason Stevens (AoC++)
+ 73) Dec 20  00:17:19  Jason Eilts
+ 74) Dec 20  00:17:20  akerl
+ 75) Dec 20  00:17:24  Tim Roberts
+ 76) Dec 20  00:17:42  Stephen
+ 77) Dec 20  00:18:02  Sander van Schouwenburg
+ 78) Dec 20  00:18:08  Cheney Mao
+ 79) Dec 20  00:18:10  mserrano
+ 80) Dec 20  00:18:28  Nick Psaris
+ 81) Dec 20  00:18:35  Peter Norvig (AoC++)
+ 82) Dec 20  00:18:43  Magne Groenhuis
+ 83) Dec 20  00:18:45  farafonoff
+ 84) Dec 20  00:18:47  nullmove
+ 85) Dec 20  00:18:49  @YouGotStone
+ 86) Dec 20  00:19:07  drysle
+ 87) Dec 20  00:19:18  Frédéric Renken
+ 88) Dec 20  00:19:42  DjinnKahn
+ 89) Dec 20  00:19:48  Bollie
+ 90) Dec 20  00:20:00  uppi
+ 91) Dec 20  00:20:06  seldomskye
+ 92) Dec 20  00:20:16  Arios16
+ 93) Dec 20  00:20:22  Zoltan Torok
+ 94) Dec 20  00:20:33  Ed Fowle
+ 95) Dec 20  00:20:34  Michael Loughry (AoC++)
+ 96) Dec 20  00:20:40  Allan K
+ 97) Dec 20  00:20:41  drougge
+ 98) Dec 20  00:20:44  drbr
+ 99) Dec 20  00:20:58  Tyson Boucher
+100) Dec 20  00:21:04  Peter Ruibal (AoC++)
+First hundred users to get the first star on Day 20:
+
+  1) Dec 20  00:02:19  (anonymous user #31397)
+  2) Dec 20  00:02:42  Kenny K (AoC++)
+  3) Dec 20  00:02:49  Andrew Skalski
+  4) Dec 20  00:02:52  tpospisi
+  5) Dec 20  00:03:22  Kevin Wang
+  6) Dec 20  00:03:23  petertseng (AoC++)
+  7) Dec 20  00:03:24  nneonneo
+  8) Dec 20  00:03:41  samczsun
+  9) Dec 20  00:03:43  Daniel Gollahon (AoC++)
+ 10) Dec 20  00:04:43  Avo Muromägi
+ 11) Dec 20  00:04:45  marcusstuhr
+ 12) Dec 20  00:04:46  tterrag
+ 13) Dec 20  00:04:49  Mathieu Plourde (AoC++)
+ 14) Dec 20  00:04:57  Keegan Carruthers-Smith (AoC++)
+ 15) Dec 20  00:04:57  Lawrence Xing
+ 16) Dec 20  00:04:58  Stuart MacGillivray (AoC++)
+ 17) Dec 20  00:04:58  drougge
+ 18) Dec 20  00:05:10  HookyQR
+ 19) Dec 20  00:05:12  (anonymous user #119362)
+ 20) Dec 20  00:05:16  Daniel Rejment (AoC++)
+ 21) Dec 20  00:05:17  CJ
+ 22) Dec 20  00:05:20  kristjan (AoC++)
+ 23) Dec 20  00:05:20  Frank Chu (AoC++)
+ 24) Dec 20  00:05:22  Jay Foad (AoC++)
+ 25) Dec 20  00:05:22  aragaer
+ 26) Dec 20  00:05:23  bufordsharkley
+ 27) Dec 20  00:05:23  arknave
+ 28) Dec 20  00:05:25  mserrano
+ 29) Dec 20  00:05:30  sguest
+ 30) Dec 20  00:05:31  likcoras
+ 31) Dec 20  00:05:34  Antti Haapala (AoC++)
+ 32) Dec 20  00:05:35  Pedro Osório (AoC++)
+ 33) Dec 20  00:05:37  Peter Ruibal (AoC++)
+ 34) Dec 20  00:05:39  jneubrand (AoC++)
+ 35) Dec 20  00:05:44  @fenomas
+ 36) Dec 20  00:05:47  Daniel Tomkins
+ 37) Dec 20  00:05:53  batneil
+ 38) Dec 20  00:05:55  Michael Berman (AoC++)
+ 39) Dec 20  00:06:03  Giedrius
+ 40) Dec 20  00:06:05  glguy (AoC++)
+ 41) Dec 20  00:06:07  Arios16
+ 42) Dec 20  00:06:10  Joshua Berne
+ 43) Dec 20  00:06:12  rahulsom
+ 44) Dec 20  00:06:19  jamie
+ 45) Dec 20  00:06:26  Toni Fadjukoff
+ 46) Dec 20  00:06:27  SimonPrins
+ 47) Dec 20  00:06:28  Kevin Vick
+ 48) Dec 20  00:06:30  jacekrobak
+ 49) Dec 20  00:06:54  hlian (AoC++)
+ 50) Dec 20  00:07:07  Gil4
+ 51) Dec 20  00:07:08  Zoltan Torok
+ 52) Dec 20  00:07:10  Jeremy Rans (AoC++)
+ 53) Dec 20  00:07:11  AdamHerrmann
+ 54) Dec 20  00:07:13  Lars Haulin
+ 55) Dec 20  00:07:15  Dylan Smith
+ 56) Dec 20  00:07:16  alokmenghrajani
+ 57) Dec 20  00:07:20  ryan sparks
+ 58) Dec 20  00:07:23  Kevin Yap (AoC++)
+ 59) Dec 20  00:07:28  Lenny Khazan (AoC++)
+ 60) Dec 20  00:07:37  Bollie
+ 61) Dec 20  00:07:37  Tom Quinn
+ 62) Dec 20  00:07:39  Gjosiah
+ 63) Dec 20  00:07:51  williewillus
+ 64) Dec 20  00:07:52  GlenboLake
+ 65) Dec 20  00:07:54  Rustywolf
+ 66) Dec 20  00:08:00  Lance Nathan
+ 67) Dec 20  00:08:01  ahorner (AoC++)
+ 68) Dec 20  00:08:03  apianka
+ 69) Dec 20  00:08:09  bovard
+ 70) Dec 20  00:08:16  Austin
+ 71) Dec 20  00:08:19  Paul Wild
+ 72) Dec 20  00:08:20  DjinnKahn
+ 73) Dec 20  00:08:29  Itizir
+ 74) Dec 20  00:08:32  Benoit Hiller
+ 75) Dec 20  00:08:34  (anonymous user #21301)
+ 76) Dec 20  00:08:40  @vyrin (AoC++)
+ 77) Dec 20  00:08:44  perimosocordiae
+ 78) Dec 20  00:08:47  Igor Naverniouk (AoC++)
+ 79) Dec 20  00:08:49  popsu
+ 80) Dec 20  00:08:49  drysle
+ 81) Dec 20  00:08:54  uppi
+ 82) Dec 20  00:08:57  fnuttplus
+ 83) Dec 20  00:09:13  mogest (AoC++)
+ 84) Dec 20  00:09:15  Erik Godard (AoC++)
+ 85) Dec 20  00:09:20  mattbradley (AoC++)
+ 86) Dec 20  00:09:23  Ago Luberg
+ 87) Dec 20  00:09:27  malisper
+ 88) Dec 20  00:09:32  B Gl
+ 89) Dec 20  00:09:36  Shanti Chellaram
+ 90) Dec 20  00:09:37  Sascha Häberling
+ 91) Dec 20  00:09:39  Sander van Schouwenburg
+ 92) Dec 20  00:09:39  Ben Blum
+ 93) Dec 20  00:09:41  Anthony Nguyen
+ 94) Dec 20  00:09:46  (anonymous user #120259)
+ 95) Dec 20  00:10:04  Cheney Mao
+ 96) Dec 20  00:10:06  pvande
+ 97) Dec 20  00:10:17  Marco Jäger
+ 98) Dec 20  00:10:17  kalven
+ 99) Dec 20  00:10:18  jweinkam
+100) Dec 20  00:10:20  seldomskye

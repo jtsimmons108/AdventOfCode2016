@@ -1,0 +1,202 @@
+ 1) Dec 06  00:01:44  Kevin Yap (AoC++)
+  2) Dec 06  00:01:57  Fox Wilson (AoC++)
+  3) Dec 06  00:01:57  John Earnest
+  4) Dec 06  00:02:32  vaultah
+  5) Dec 06  00:02:45  Nick Psaris
+  6) Dec 06  00:02:47  RodericDay
+  7) Dec 06  00:03:07  blockingthesky (AoC++)
+  8) Dec 06  00:03:10  orez-
+  9) Dec 06  00:03:10  minno726
+ 10) Dec 06  00:03:14  Kevin Wang
+ 11) Dec 06  00:03:18  Samuel Damashek (AoC++)
+ 12) Dec 06  00:03:23  wim glenn (AoC++)
+ 13) Dec 06  00:03:25  Max Jäger (AoC++)
+ 14) Dec 06  00:03:29  Chris Penner (AoC++)
+ 15) Dec 06  00:03:31  Michael Fowler
+ 16) Dec 06  00:03:33  Peter Ruibal (AoC++)
+ 17) Dec 06  00:03:35  balidani
+ 18) Dec 06  00:03:36  petertseng (AoC++)
+ 19) Dec 06  00:03:41  hlian (AoC++)
+ 20) Dec 06  00:03:42  Kevin Vick
+ 21) Dec 06  00:03:45  Dan Seminara
+ 22) Dec 06  00:03:48  Paul Wild
+ 23) Dec 06  00:03:49  Peter Berczi
+ 24) Dec 06  00:03:49  Anthony Nguyen
+ 25) Dec 06  00:03:52  Brandon Zhang
+ 26) Dec 06  00:03:54  Ji An Yang
+ 27) Dec 06  00:03:54  the-zebulan
+ 28) Dec 06  00:03:58  Keegan Carruthers-Smith (AoC++)
+ 29) Dec 06  00:04:02  CJ
+ 30) Dec 06  00:04:03  Pascal-J
+ 31) Dec 06  00:04:06  Nick Frost (AoC++)
+ 32) Dec 06  00:04:07  kristjan (AoC++)
+ 33) Dec 06  00:04:08  Paul Bereza
+ 34) Dec 06  00:04:09  (anonymous user #119362)
+ 35) Dec 06  00:04:13  jamesk727
+ 36) Dec 06  00:04:13  Jeremiah Simmons (AoC++)
+ 37) Dec 06  00:04:14  Nathan Armstrong
+ 38) Dec 06  00:04:15  Kenny K (AoC++)
+ 39) Dec 06  00:04:17  ahorner (AoC++)
+ 40) Dec 06  00:04:20  Igor Naverniouk (AoC++)
+ 41) Dec 06  00:04:20  Алексей Дубровин
+ 42) Dec 06  00:04:23  (anonymous user #14246)
+ 43) Dec 06  00:04:26  daniel-wer
+ 44) Dec 06  00:04:27  cflaming
+ 45) Dec 06  00:04:28  fnuttplus
+ 46) Dec 06  00:04:29  Matt Boehm
+ 47) Dec 06  00:04:30  Andrew Skalski
+ 48) Dec 06  00:04:35  HookyQR
+ 49) Dec 06  00:04:37  Chris Barker
+ 50) Dec 06  00:04:39  DjinnKahn
+ 51) Dec 06  00:04:39  Alpha Chen
+ 52) Dec 06  00:04:41  Kevin Brown
+ 53) Dec 06  00:04:41  mserrano
+ 54) Dec 06  00:04:42  gzgreg
+ 55) Dec 06  00:04:43  @vyrin (AoC++)
+ 56) Dec 06  00:04:50  Ivo Sanchez Checa Crosato
+ 57) Dec 06  00:04:56  Peter Norvig (AoC++)
+ 58) Dec 06  00:04:56  Conrad Meyer
+ 59) Dec 06  00:04:57  dfloer (AoC++)
+ 60) Dec 06  00:04:59  Kent Ma
+ 61) Dec 06  00:05:01  Adam Pearce
+ 62) Dec 06  00:05:01  lukechampine
+ 63) Dec 06  00:05:06  malisper
+ 64) Dec 06  00:05:07  exoji2e
+ 65) Dec 06  00:05:09  Ape3000
+ 66) Dec 06  00:05:11  (anonymous user #36354)
+ 67) Dec 06  00:05:12  Montana Ruth
+ 68) Dec 06  00:05:12  Bernhard Häussner
+ 69) Dec 06  00:05:14  Pedro Osório (AoC++)
+ 70) Dec 06  00:05:19  Trevor Masters
+ 71) Dec 06  00:05:20  Mark Simulacrum
+ 72) Dec 06  00:05:28  Andreas Hagesjö
+ 73) Dec 06  00:05:37  gintrator
+ 74) Dec 06  00:05:41  jneubrand (AoC++)
+ 75) Dec 06  00:05:44  bovard
+ 76) Dec 06  00:05:45  Akash Gupta
+ 77) Dec 06  00:05:46  gchan (AoC++)
+ 78) Dec 06  00:05:47  Hypersonic
+ 79) Dec 06  00:05:48  msullivan
+ 80) Dec 06  00:05:49  breadknock
+ 81) Dec 06  00:05:52  Ian Su
+ 82) Dec 06  00:05:53  anon1mous
+ 83) Dec 06  00:05:56  Tom Quinn
+ 84) Dec 06  00:05:56  Paul Wicks
+ 85) Dec 06  00:05:59  Elaine Mou
+ 86) Dec 06  00:06:00  Erik Godard (AoC++)
+ 87) Dec 06  00:06:01  @IanBurgan
+ 88) Dec 06  00:06:02  Andrew Foote
+ 89) Dec 06  00:06:03  wmorganjr
+ 90) Dec 06  00:06:03  James McGillivray
+ 91) Dec 06  00:06:04  SLandryP
+ 92) Dec 06  00:06:05  Hart Sturgeon-Reed
+ 93) Dec 06  00:06:08  JIghtuse
+ 94) Dec 06  00:06:09  adlpr
+ 95) Dec 06  00:06:09  Joshua Berne
+ 96) Dec 06  00:06:10  rennex
+ 97) Dec 06  00:06:13  ephemient
+ 98) Dec 06  00:06:14  bendoh
+ 99) Dec 06  00:06:15  JamesB41 (AoC++)
+100) Dec 06  00:06:16  Alex Crimi
+First hundred users to get the first star on Day 6:
+
+  1) Dec 06  00:01:10  Kevin Yap (AoC++)
+  2) Dec 06  00:01:14  John Earnest
+  3) Dec 06  00:01:31  vaultah
+  4) Dec 06  00:01:32  Fox Wilson (AoC++)
+  5) Dec 06  00:01:42  Nick Psaris
+  6) Dec 06  00:01:58  blockingthesky (AoC++)
+  7) Dec 06  00:02:10  RodericDay
+  8) Dec 06  00:02:11  the-zebulan
+  9) Dec 06  00:02:12  Matt Boehm
+ 10) Dec 06  00:02:29  Dan Seminara
+ 11) Dec 06  00:02:30  orez-
+ 12) Dec 06  00:02:31  Kevin Wang
+ 13) Dec 06  00:02:32  Chris Penner (AoC++)
+ 14) Dec 06  00:02:33  minno726
+ 15) Dec 06  00:02:36  Samuel Damashek (AoC++)
+ 16) Dec 06  00:02:40  wim glenn (AoC++)
+ 17) Dec 06  00:02:45  Michael Fowler
+ 18) Dec 06  00:02:46  Peter Ruibal (AoC++)
+ 19) Dec 06  00:02:49  Paul Wild
+ 20) Dec 06  00:02:50  Max Jäger (AoC++)
+ 21) Dec 06  00:02:51  hlian (AoC++)
+ 22) Dec 06  00:02:53  Mark Simulacrum
+ 23) Dec 06  00:03:00  Kevin Vick
+ 24) Dec 06  00:03:09  Anthony Nguyen
+ 25) Dec 06  00:03:09  petertseng (AoC++)
+ 26) Dec 06  00:03:12  cflaming
+ 27) Dec 06  00:03:12  balidani
+ 28) Dec 06  00:03:13  Brandon Zhang
+ 29) Dec 06  00:03:17  Pascal-J
+ 30) Dec 06  00:03:18  Erik Godard (AoC++)
+ 31) Dec 06  00:03:20  CJ
+ 32) Dec 06  00:03:21  Peter Berczi
+ 33) Dec 06  00:03:22  Nick Frost (AoC++)
+ 34) Dec 06  00:03:23  Ji An Yang
+ 35) Dec 06  00:03:24  Paul Bereza
+ 36) Dec 06  00:03:25  ahorner (AoC++)
+ 37) Dec 06  00:03:26  Igor Naverniouk (AoC++)
+ 38) Dec 06  00:03:27  @vyrin (AoC++)
+ 39) Dec 06  00:03:28  Keegan Carruthers-Smith (AoC++)
+ 40) Dec 06  00:03:31  kristjan (AoC++)
+ 41) Dec 06  00:03:34  Pedro Osório (AoC++)
+ 42) Dec 06  00:03:38  Алексей Дубровин
+ 43) Dec 06  00:03:38  (anonymous user #119362)
+ 44) Dec 06  00:03:38  Kenny K (AoC++)
+ 45) Dec 06  00:03:39  Nathan Armstrong
+ 46) Dec 06  00:03:39  Ape3000
+ 47) Dec 06  00:03:40  daniel-wer
+ 48) Dec 06  00:03:41  Jeremiah Simmons (AoC++)
+ 49) Dec 06  00:03:41  Paul Wicks
+ 50) Dec 06  00:03:43  mserrano
+ 51) Dec 06  00:03:43  (anonymous user #14246)
+ 52) Dec 06  00:03:44  DjinnKahn
+ 53) Dec 06  00:03:46  jamesk727
+ 54) Dec 06  00:03:47  Peter Norvig (AoC++)
+ 55) Dec 06  00:03:47  Kevin Brown
+ 56) Dec 06  00:03:47  Montana Ruth
+ 57) Dec 06  00:03:51  HookyQR
+ 58) Dec 06  00:03:51  gzgreg
+ 59) Dec 06  00:03:55  anon1mous
+ 60) Dec 06  00:03:56  @IanBurgan
+ 61) Dec 06  00:03:57  Gjosiah
+ 62) Dec 06  00:03:58  Ian Su
+ 63) Dec 06  00:03:59  Chris Barker
+ 64) Dec 06  00:04:00  Andrew Skalski
+ 65) Dec 06  00:04:00  Ivo Sanchez Checa Crosato
+ 66) Dec 06  00:04:00  fnuttplus
+ 67) Dec 06  00:04:11  Conrad Meyer
+ 68) Dec 06  00:04:13  Christian Witts
+ 69) Dec 06  00:04:15  Alpha Chen
+ 70) Dec 06  00:04:17  exoji2e
+ 71) Dec 06  00:04:17  (anonymous user #36354)
+ 72) Dec 06  00:04:17  Trevor Masters
+ 73) Dec 06  00:04:19  nickbenn (AoC++)
+ 74) Dec 06  00:04:21  dfloer (AoC++)
+ 75) Dec 06  00:04:22  lukechampine
+ 76) Dec 06  00:04:28  Kent Ma
+ 77) Dec 06  00:04:30  jiningq
+ 78) Dec 06  00:04:32  Adam Pearce
+ 79) Dec 06  00:04:33  Bernhard Häussner
+ 80) Dec 06  00:04:34  gintrator
+ 81) Dec 06  00:04:37  malisper
+ 82) Dec 06  00:04:39  bufordsharkley
+ 83) Dec 06  00:04:40  bovard
+ 84) Dec 06  00:04:41  Tom Quinn
+ 85) Dec 06  00:04:46  jwoglom
+ 86) Dec 06  00:04:46  Jeremy Rans (AoC++)
+ 87) Dec 06  00:04:47  SimonPrins
+ 88) Dec 06  00:04:49  (anonymous user #89790)
+ 89) Dec 06  00:04:50  not-inept
+ 90) Dec 06  00:04:50  rennex
+ 91) Dec 06  00:04:51  Glutanimate
+ 92) Dec 06  00:04:53  JamesB41 (AoC++)
+ 93) Dec 06  00:04:53  Logan Kopas (AoC++)
+ 94) Dec 06  00:04:55  Andreas Hagesjö
+ 95) Dec 06  00:04:56  Akash Gupta
+ 96) Dec 06  00:04:57  packersfan84
+ 97) Dec 06  00:04:58  Elaine Mou
+ 98) Dec 06  00:04:59  andreleblanc-wf
+ 99) Dec 06  00:05:06  Michał Papierski
+100) Dec 06  00:05:09  breadknock

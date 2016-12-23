@@ -1,0 +1,100 @@
+ 1) 3543   Kevin Wang
+  2) 3127  petertseng (AoC++)
+  3) 2932  Andrew Skalski
+  4) 2726  Paul Wild
+  5) 2557  orez-
+  6) 2518  (anonymous user #119362)
+  7) 2444  DjinnKahn
+  8) 2337  Fox Wilson (AoC++)
+  9) 2334  Pedro Osório (AoC++)
+ 10) 2246  (anonymous user #31397)
+ 11) 2193  Kevin Yap (AoC++)
+ 12) 2181  nneonneo
+ 13) 2169  SimonPrins
+ 14) 2136  Samuel Damashek (AoC++)
+ 15) 2086  arknave
+ 16) 2086  glguy (AoC++)
+ 17) 1998  Michael C. Martin
+ 18) 1866  Kenny K (AoC++)
+ 19) 1851  drysle
+ 20) 1816  (anonymous user #7253)
+ 21) 1803  Igor Naverniouk (AoC++)
+ 22) 1780  gzgreg
+ 23) 1741  Brandon Zhang
+ 24) 1737  Stephen
+ 25) 1732  Peter Ruibal (AoC++)
+ 26) 1705  Anthony Nguyen
+ 27) 1700  tpospisi
+ 28) 1666  kristjan (AoC++)
+ 29) 1595  Austin
+ 30) 1579  Daniel Tomkins
+ 31) 1575  Keegan Carruthers-Smith (AoC++)
+ 32) 1570  Ji An Yang
+ 33) 1510  packersfan84
+ 34) 1508  @vyrin (AoC++)
+ 35) 1499  blockingthesky (AoC++)
+ 36) 1470  jneubrand (AoC++)
+ 37) 1464  CJ
+ 38) 1427  msullivan
+ 39) 1366  Lance Nathan
+ 40) 1341  Daniel Rejment (AoC++)
+ 41) 1241  Conrad Meyer
+ 42) 1225  jtbandes
+ 43) 1222  alokmenghrajani
+ 44) 1221  RidgeX
+ 45) 1208  Jay Foad (AoC++)
+ 46) 1205  Jeremy Ruten
+ 47) 1188  Harrison Weigel
+ 48) 1162  drougge
+ 49) 1157  Kevin Vick
+ 50) 1142  RodericDay
+ 51) 1134  Benoit Hiller
+ 52) 1133  GlenboLake
+ 53) 1132  marcusstuhr
+ 54) 1114  mattbradley (AoC++)
+ 55) 1113  jacekrobak
+ 56) 1112  jamesk727
+ 57) 1104  Jeremy Rans (AoC++)
+ 58) 1093  Stuart MacGillivray (AoC++)
+ 59) 1084  DeathWalrus
+ 60) 1077  Ben Blum
+ 61) 1076  (anonymous user #120259)
+ 62) 1056  Tom Quinn
+ 63) 1046  malisper
+ 64) 1035  BillKing94 (AoC++)
+ 65) 1005  Joe LeGasse (AoC++)
+ 66)  975  HookyQR
+ 67)  957  Joshua Berne
+ 68)  956  Michael Berman (AoC++)
+ 69)  952  wmorganjr
+ 70)   952  Toni Fadjukoff
+ 71)  942  Chris Penner (AoC++)
+ 72)  941  Ago Luberg
+ 73)  933  ephemient
+ 74)  927  Lenny Khazan (AoC++)
+ 75)  921  Matt Boehm
+ 76)  885  flyee
+ 77)  879  Becojo
+ 78)  871  fnuttplus
+ 79)  868  (anonymous user #60233)
+ 80)  865  zgrep (AoC++)
+ 81)  861  Talchas
+ 82)  852  mserrano
+ 83)  851  exoji2e
+ 84)  851  balidani
+ 85)  847  Peter Berczi
+ 86)  846  perimosocordiae
+ 87)  831  ChrisPMohr
+ 88)  819  ahorner (AoC++)
+ 89)  817  AdamHerrmann
+ 90)  810  Antti Haapala (AoC++)
+ 91)  807  Scott Peters
+ 92)  790  Daniel Gollahon (AoC++)
+ 93)  784  Tomasz Pawicki
+ 94)  780  Springo
+ 95)  764  Tyson Boucher
+ 96)  758  minno726
+ 97)  737  gchan (AoC++)
+ 98)  730  Kevin Brown
+ 99)  729  willkill07 (AoC++)
+100)  723  Alex Crimi
