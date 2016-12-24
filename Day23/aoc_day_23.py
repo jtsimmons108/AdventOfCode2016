@@ -1,8 +1,5 @@
 from __future__ import print_function
-import itertools
 import re
-from collections import deque, Counter
-
 
 start_file = open('./aoc_day_23_input.txt')
 instructions = start_file.read().strip().splitlines()
@@ -21,6 +18,7 @@ toggle = re.compile(r'tgl (.)')
 i = 0
 while i < len(instructions):
     line = instructions[i]
+    print(i, line)
     if i == 4:
         registers['a'] += registers['b'] * registers['d']
         registers['c'] = 0

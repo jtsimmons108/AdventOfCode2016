@@ -40,4 +40,5 @@ people = sorted(entries.items(), key = lambda person: -sum([101 - x for x in per
 for i in range(len(people)):
     print(i + 1, people[i][0], len(people[i][1]), sum([101 - x for x in people[i][1]]))
 
+print(entries['susanev'])
 
