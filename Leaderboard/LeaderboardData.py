@@ -11,7 +11,7 @@ leaders = [global_entry.findall(person.replace(' (AoC++)', ''))[0] for person in
 
 entries = {}
 all = 0
-for i in range(1, 24):
+for i in range(1, 25):
     inpt = [line.strip().replace(' (AoC++)', '') for line in open('./Day' + str(i) + 'Leaderboard.txt').read().strip().splitlines()]
     part1_users = []
     part2_users = []
@@ -40,5 +40,4 @@ people = sorted(entries.items(), key = lambda person: -sum([101 - x for x in per
 for i in range(len(people)):
     print(i + 1, people[i][0], len(people[i][1]), sum([101 - x for x in people[i][1]]))
 
-print(entries['susanev'])
 

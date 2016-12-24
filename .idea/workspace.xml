@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a5793e-9400-410b-b804-a8e3eac31393" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day24/aoc_day_24.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day24/aoc_day_24_input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leaderboard/Day24Leaderboard.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day23/aoc_day_23.py" afterPath="$PROJECT_DIR$/Day23/aoc_day_23.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day24/aoc_day_24.py" afterPath="$PROJECT_DIR$/Day24/aoc_day_24.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaderboard/LeaderboardData.py" afterPath="$PROJECT_DIR$/Leaderboard/LeaderboardData.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,21 +26,11 @@
       <file leaf-file-name="aoc_day_24.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day24/aoc_day_24.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-42">
+              <caret line="19" column="84" lean-forward="false" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aoc_day_24_input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24/aoc_day_24_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="38" column="181" lean-forward="false" selection-start-line="38" selection-start-column="181" selection-end-line="38" selection-end-column="181" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day16/aoc_day_16_input.txt" />
         <option value="$PROJECT_DIR$/Day13/aoc_day_13_input.txt" />
         <option value="$PROJECT_DIR$/Day11/aoc_day_11.py" />
         <option value="$PROJECT_DIR$/Day11/aoc_day_11_bfs.py" />
@@ -129,8 +117,9 @@
         <option value="$PROJECT_DIR$/Day23/aoc_day_23_input.txt" />
         <option value="$PROJECT_DIR$/Leaderboard/Day23Leaderboard.txt" />
         <option value="$PROJECT_DIR$/Day23/aoc_day_23.py" />
-        <option value="$PROJECT_DIR$/Leaderboard/LeaderboardData.py" />
         <option value="$PROJECT_DIR$/Day24/aoc_day_24_input.txt" />
+        <option value="$PROJECT_DIR$/Leaderboard/Day24Leaderboard.txt" />
+        <option value="$PROJECT_DIR$/Leaderboard/LeaderboardData.py" />
         <option value="$PROJECT_DIR$/Day24/aoc_day_24.py" />
       </list>
     </option>
@@ -159,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +205,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -506,7 +495,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28107345" sideWeight="0.5028854" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42655367" sideWeight="0.4971146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42655367" sideWeight="0.4971146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12448475" sideWeight="0.5065913" order="2" side_tool="true" content_ui="tabs" />
@@ -551,13 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day7/aoc_day_7_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="106" lean-forward="false" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day11/aoc_day_18.py" />
     <entry file="file://$PROJECT_DIR$/Day15/aoc_day_15.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -874,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboard/LeaderboardData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day23/aoc_day_23.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -900,10 +874,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboard/Day24Leaderboard.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="201" column="33" lean-forward="false" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboard/LeaderboardData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="34" selection-end-column="151" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day24/aoc_day_24.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-42">
+          <caret line="19" column="84" lean-forward="false" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
