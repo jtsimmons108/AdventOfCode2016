@@ -18,7 +18,6 @@ toggle = re.compile(r'tgl (.)')
 i = 0
 while i < len(instructions):
     line = instructions[i]
-    print(i, line)
     if i == 4:
         registers['a'] += registers['b'] * registers['d']
         registers['c'] = 0

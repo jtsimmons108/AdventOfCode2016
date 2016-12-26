@@ -48,35 +48,35 @@ for path in itertools.permutations(range(1, 8)):
     distances1.append((distance, path[:-1]))
     distances2.append((distance + lengths[(path[-2], path[-1])][0], path))
 
-# print('Part1:', min(distances1))
-# print('Part2:', min(distances2))
+print('Part1:', min(distances1))
+print('Part2:', min(distances2))
 
 #Visualization
-for r, c in locations.values():
-    grid[r][c] = '\033[31m' + grid[r][c] + '\033[37m'
-steps = 0
-path = min(distances1)[1]
-for i in range(len(path)-1):
-    one, two = path[i], path[i+1]
-    curr_path = lengths[(one, two)][1][1:-1]
-    r, c = locations[one]
-    grid[r][c] = '\033[32m' + str(one) + '\033[37m'
-    for i in range(len(curr_path)):
-        steps += 1
-        cr, cc = curr_path[i]
-        grid[cr][cc] = '\033[32m' + '@' + '\033[37m'
-        if i > 0:
-            pr, pc = curr_path[i - 1]
-            grid[pr][pc] = '.'
-        os.system('clear')
-        print_grid(steps)
-        time.sleep(.05)
-        if i == len(curr_path) - 1:
-            steps += 1
-            grid[cr][cc] = '.'
-            os.system('clear')
-            print_grid(steps)
-    r, c = locations[two]
-    grid[r][c] = '\033[32m' + str(two) + '\033[37m'
-    os.system('clear')
-    print_grid(steps)
+# for r, c in locations.values():
+#     grid[r][c] = '\033[31m' + grid[r][c] + '\033[37m'
+# steps = 0
+# path = min(distances1)[1]
+# for i in range(len(path)-1):
+#     one, two = path[i], path[i+1]
+#     curr_path = lengths[(one, two)][1][1:-1]
+#     r, c = locations[one]
+#     grid[r][c] = '\033[32m' + str(one) + '\033[37m'
+#     for i in range(len(curr_path)):
+#         steps += 1
+#         cr, cc = curr_path[i]
+#         grid[cr][cc] = '\033[32m' + '@' + '\033[37m'
+#         if i > 0:
+#             pr, pc = curr_path[i - 1]
+#             grid[pr][pc] = '.'
+#         os.system('clear')
+#         print_grid(steps)
+#         time.sleep(.05)
+#         if i == len(curr_path) - 1:
+#             steps += 1
+#             grid[cr][cc] = '.'
+#             os.system('clear')
+#             print_grid(steps)
+#     r, c = locations[two]
+#     grid[r][c] = '\033[32m' + str(two) + '\033[37m'
+#     os.system('clear')
+#     print_grid(steps)
