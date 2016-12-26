@@ -11,7 +11,7 @@ leaders = [global_entry.findall(person.replace(' (AoC++)', ''))[0] for person in
 
 entries = {}
 all = 0
-for i in range(1, 25):
+for i in range(1, 26):
     inpt = [line.strip().replace(' (AoC++)', '') for line in open('./Day' + str(i) + 'Leaderboard.txt').read().strip().splitlines()]
     part1_users = []
     part2_users = []
