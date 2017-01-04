@@ -1,8 +1,6 @@
 from __future__ import print_function
 from hashlib import md5
-import time
 
-start = time.time()
 pass_ = 'cxdnnyjw'
 result = ''
 i = 10**6
@@ -19,7 +17,6 @@ while '_' in letters:
             print(''.join(letters))
 
     i += 1
-print(time.time() - start, 'seconds')
 print('Part one: ', result)
 print('Part two: ', ''.join(letters))
 

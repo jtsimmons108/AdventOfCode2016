@@ -1,11 +1,9 @@
 from __future__ import print_function
 import re
-import time
 
 start_file = open('./aoc_day_10_input.txt')
 instructions = start_file.read().strip().splitlines()
 
-start = time.time()
 bins = {'bot':{}, 'output':{}}
 
 reg1 = r'value (\d+) goes to bot (\d+)'
@@ -30,7 +28,7 @@ while len(instructions) > 0:
             val1 = min(bins['bot'][bot])
             val2 = max(bins['bot'][bot])
             if val1 == 17 and val2 == 61:
-                print('Answer to Part 1:', bot)
+                print('Part 1:', bot)
             bins['bot'][bot].remove(val1)
             bins['bot'][bot].remove(val2)
             if to1 not in bins[which1]:
@@ -42,6 +40,5 @@ while len(instructions) > 0:
             del instructions[i]
         else:
             i = (i + 1) % len(instructions)
-print(time.time() - start)
-print('Answer to Part 2:', bins['output'][0][0] * bins['output'][1][0] * bins['output'][2][0])
+print('Part 2:', bins['output'][0][0] * bins['output'][1][0] * bins['output'][2][0])
 

@@ -36,8 +36,8 @@ for i in range(1, 26):
 
 print(len(entries))
 print(all)
-people = sorted(entries.items(), key = lambda person: -sum([101 - x for x in person[1]]) )
+people = sorted(entries.items(), key = lambda person: -sum([101 - x for x in person[1]]))
 for i in range(len(people)):
-    print(i + 1, people[i][0], len(people[i][1]), sum([101 - x for x in people[i][1]]))
+    print(("" + str(i + 1)).center(5, ' '), (people[i][0].strip()).center(25, ' '), '' +  str(sum([101 - x for x in people[i][1]])).center(7, ' ') + '\n')
 
 

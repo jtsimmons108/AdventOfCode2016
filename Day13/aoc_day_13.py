@@ -1,12 +1,8 @@
 from __future__ import print_function
-import re
-import string
-import itertools
-from collections import Counter
-import time
 
 num = 1364
 target_x, target_y = 31, 39
+moves = [(1, 0), (-1, 0), (0, -1), (0, 1)]
 
 def get_value(x, y):
     if bin((x*x + 3 * x + 2 * x * y + y + y * y) + num)[2:].count('1') % 2 == 0:
@@ -27,57 +23,26 @@ values[target_y][target_x] = 'X'
 def is_valid(x, y):
     return y in range(len(values)) and x in range(len(values[0])) and values[y][x] in '.X'
 
-for row in values:
-    for val in row:
-        print(val, end = "  ")
-    print()
 
-start_x, start_y = (1, 1)
-distances = []
-visited = set()
-path = []
-nodes = 0
-def find_path(x, y, seen, day1):
-    global nodes
-    nodes += 1
+def find_path(x, y, seen, part1):
     seen.append((x, y))
     visited.add((x,y))
-    if day1 and (x, y) == (target_x, target_y):
-        distances.append(len(seen))
-        if len(seen) == min(distances):
-            global path
-            path = seen
+    if part1 and (x, y) == (target_x, target_y):
+        distances.append(len(seen) - 1)
+    if part1 and (len(distances) == 0 or len(seen) < min(distances)) or len(seen) <= 50 and not part1:
+        for dx, dy in moves:
+            if is_valid(x + dx, y + dy) and (x + dx, y + dy) not in seen:
+                find_path(x + dx, y + dy, seen[::], part1)
 
-    if day1 and (len(distances ) == 0 or len(seen) < min(distances)) or len(seen) <= 50 and not day1:
-        if is_valid(x + 1, y) and (x + 1, y) not in seen:
-            find_path(x + 1, y, seen[::], day1)
-
-        if is_valid(x - 1, y) and (x - 1, y) not in seen:
-            find_path(x - 1, y, seen[::], day1)
-
-        if is_valid(x, y + 1) and (x, y + 1) not in seen:
-            find_path(x, y + 1, seen[::], day1)
-
-        if is_valid(x, y - 1) and (x, y- 1) not in seen:
-            find_path(x, y - 1, seen[::], day1)
+for part1 in [True, False]:
+    start_x, start_y = (1, 1)
+    distances = []
+    visited = set()
+    find_path(start_x, start_y, [], part1)
+    if part1:
+        print('Part 1:', min(distances))
+    else:
+        print('Part 2:', len(visited))
 
 
 
-
-day1 = True
-find_path(1, 1, [], day1)
-
-if day1:
-    print(min(distances))
-    for x, y in path:
-        values[y][x] = 'O'
-else:
-    print(len(visited))
-
-
-for row in values:
-    for val in row:
-        print(val, end = "  ")
-    print()
-
-print(nodes)

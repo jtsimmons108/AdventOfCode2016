@@ -17,5 +17,5 @@ for i in words.keys():
     result1 += Counter(words[i]).most_common()[0][0]
     result2 += Counter(words[i]).most_common()[-1][0]
 
-print(result1)
-print(result2)
+print('Part 1:', result1)
+print('Part 2:', result2)

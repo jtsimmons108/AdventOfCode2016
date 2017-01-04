@@ -10,7 +10,7 @@ import itertools
 floors1 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com'], ['pom', 'prm'], [], []]
 
 # Floor starting point for 2nd part
-# floors2 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com', 'elm', 'elg', 'dim', 'dig'], ['pom', 'prm'],[],[]]
+floors2 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com', 'elm', 'elg', 'dim', 'dig'], ['pom', 'prm'],[],[]]
 
 moves = []
 class Game(object):
@@ -154,7 +154,6 @@ class Game(object):
         self.seen_floor_states.append(self)
         new_game = Game([floor[::] for floor in self.floor_plan], self.moves, self.elevator_floor, self.seen_floor_states)
         new_game.move(items_to_move, self.elevator_floor + direction)
-        print(new_game)
         if not any(new_game.has_same_game_state(game) for game in new_game.seen_floor_states):
             new_game.process_turn()
 
@@ -164,7 +163,6 @@ class Game(object):
     def process_turn(self):
         if self.is_done():
             print(self.moves)
-            exit()
 
         else:
             pairs_up = self.get_pairs_to_move_up()
@@ -204,8 +202,8 @@ class Game(object):
 game1 = Game(floors1, 0, 0, [])
 game1.process_turn()
 
-# game2 = Game(floors2, 0, 0, [])
-# game2.process_turn()
+game2 = Game(floors2, 0, 0, [])
+game2.process_turn()
 
 
 

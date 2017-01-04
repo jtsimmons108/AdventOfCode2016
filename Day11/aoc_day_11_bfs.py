@@ -3,21 +3,14 @@ import itertools
 from collections import deque
 
 
-#Example
-#floors1 = [['hym', 'lim'], ['hyg'], ['lig'], []]
 
-'''The first floor contains a promethium generator and a promethium-compatible microchip.
-The second floor contains a cobalt generator, a curium generator, a ruthenium generator, and a plutonium generator.
-The third floor contains a cobalt-compatible microchip, a curium-compatible microchip, a ruthenium-compatible microchip, and a plutonium-compatible microchip.
-The fourth floor contains nothing relevant.'''
-#floors1 = [['prg', 'prm'], ['cog', 'cug', 'rug', 'plg'], ['com', 'cum', 'rum', 'plm'],[]]
 
 floors1 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com'], ['pom', 'prm'], [], []]
-
 # Floor starting point for 2nd part
-#floors2 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com', 'elm', 'elg', 'dim', 'dig'], ['pom', 'prm'],[],[]]
-
+floors2 = [['pog', 'thg', 'thm', 'prg', 'rug', 'rum', 'cog', 'com', 'elm', 'elg', 'dim', 'dig'], ['pom', 'prm'],[],[]]
 moves = []
+
+
 class Game(object):
     def __init__(self, floor_plan, moves, elevator_floor):
         self.floor_plan = [floor[::] for floor in floor_plan]
@@ -170,39 +163,30 @@ class Game(object):
             result += 'Floor ' + (str(4 - i)) + ': ' + elevator + ' ' + str(self.floor_plan[-1 - i]) + '\n'
         return result
 
+for floors in [floors1, floors2]:
+    game = Game(floors, 0, 0)
+    views = 0
+    states = []
+    nodes = deque()
+    nodes.append(game)
+    states.append(game.get_game_state())
 
-game = Game(floors1, 0, 0)
-states = []
-nodes = deque()
-nodes.append(game)
-states.append(game.get_game_state())
-
-while len(nodes) > 0:
-    curr_game = nodes.popleft()
-    if curr_game.is_done():
-        print(curr_game.moves)
-        break
-    for items in curr_game.get_items_to_move_up():
-        new_game = Game(curr_game.floor_plan, curr_game.moves, curr_game.elevator_floor)
-        new_game.move(items, 1)
-        if new_game.get_game_state() not in states:
-            print(new_game.moves)
-            states.append(new_game.get_game_state())
-            nodes.append(new_game)
-    for items in curr_game.get_items_to_move_down():
-        new_game = Game(curr_game.floor_plan, curr_game.moves, curr_game.elevator_floor)
-        new_game.move(items, -1)
-        if new_game.get_game_state() not in states:
-            print(new_game.moves)
-            states.append(new_game.get_game_state())
-            nodes.append(new_game)
-
-
-
-
-
-
-
-
-
-
+    while len(nodes) > 0:
+        curr_game = nodes.popleft()
+        views += 1
+        if curr_game.is_done():
+            print(curr_game.moves)
+            print(views)
+            break
+        for items in curr_game.get_items_to_move_up():
+            new_game = Game(curr_game.floor_plan, curr_game.moves, curr_game.elevator_floor)
+            new_game.move(items, 1)
+            if new_game.get_game_state() not in states:
+                states.append(new_game.get_game_state())
+                nodes.append(new_game)
+        for items in curr_game.get_items_to_move_down():
+            new_game = Game(curr_game.floor_plan, curr_game.moves, curr_game.elevator_floor)
+            new_game.move(items, -1)
+            if new_game.get_game_state() not in states:
+                states.append(new_game.get_game_state())
+                nodes.append(new_game)
